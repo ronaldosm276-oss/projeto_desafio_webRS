@@ -1,3 +1,9 @@
 head{
-    height: 1px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+h1{
+    color:blue;
 }
