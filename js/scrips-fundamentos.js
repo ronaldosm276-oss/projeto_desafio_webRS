@@ -45,10 +45,13 @@ num3 = 192
 
 console.log(num3)
 
-/* let = bloco que era foi contruida
-    var = funciona dentro ou fora do bloco, tanto faz
-    const = é constante, é uma variavel que não muda
+/*  
 
+    let = bloco que era foi contruida
+
+    var = funciona dentro ou fora do bloco, tanto faz
+
+    const = é constante, é uma variavel que não muda
 
 */
 //const não pode ser alterada, não pode ser alterada
