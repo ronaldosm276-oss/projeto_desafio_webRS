@@ -1,8 +1,8 @@
 //pegar elementos  do doc
-const formPessoa = documento.querySelector("#formulario-pessoa")
+const formPessoa = document.querySelector("#formulario-pessoa")
 const divDados = document.querySelector("#div-dados")
 
-formPessoa.addEventListener('submit'). (evt) => {
+formPessoa.addEventListener('submit').(evt) => {
 evt.preventDefalt()
 
 const dadosForm = new FormData(formPessoa)
