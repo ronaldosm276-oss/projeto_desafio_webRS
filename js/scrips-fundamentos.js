@@ -113,7 +113,7 @@ if (idade >= 18) {
     console.log("MAIOR DE IDADE")
 
 }
- else {
+else {
     console.log("MENOR DE IDADE")
 }
 
@@ -121,3 +121,55 @@ idade = 12
 
 idade >= 18 ? console.log("MAIOR DE IDADE") : console.log("MENOR DE IDADE")
 
+
+/*
+    RENOVAÇÃO DE CNH (UMA AULINHA AI)
+    18 ATÉ 49 -> 10 ANOS
+    50 ATÉ 69 -> 5 ANOS
+    70 ACIMA -> 3 ANOS
+*/
+
+if (idade < 18) {
+    console.log(`COM ${idade}, NÃO É PERMITIDO POSSUIR CNH`)
+} else if (idade < 50) {
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 10 ANOS `)
+} else if (idade < 70) {
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 5 ANOS `)
+} else {
+    console.log(`COM ${idade}, O TEMPO PARA RENOVAÇÃO É DE 3 ANOS `)
+}
+
+
+//TABELA VERDADE
+/*
+    CONJUÇÃO -> && E
+    VV V
+    VF F
+    FV F
+    FF F
+
+    CONJUÇÃO -> || OU
+    VV V
+    VF V
+    FV V
+    FF F
+*/
+
+/** <-- PARA BULLET POINTS RÁPIDOS
+ * AUTORIZAÇÃO DE ACESSO PARA UM AMBIENTE SEJA DO SEGUINTE MODO:
+ * TER IDADE MAIOR OU IGUAL A 18 ANOS E POSSUIR R$ 1000
+ */
+
+let valor = 1500
+
+if ((idade >= 18) && (valor >= 1000)) {
+    console.log("AUTORIZADO ACESSO A PLATAFORMA")
+} else {
+    console.log("ACESSO NEGADO")
+}
+
+if ((idade >= 18) || (valor >= 1000)) {
+    console.log("AUTORIZADO ACESSO A PLATAFORMA")
+} else {
+    console.log("ACESSO NEGADO")
+}
